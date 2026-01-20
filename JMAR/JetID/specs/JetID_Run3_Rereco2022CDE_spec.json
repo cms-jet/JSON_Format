@@ -1,0 +1,106 @@
+[
+    {
+        "name": "AK4PUPPI_TightLeptonVeto",
+        "description": "AK4PUPPI Jet Identification TightLeptonVeto Criteria for Run3 Rereco2022CDE",
+        "version": 2,
+        "verbose_description": false,
+        "eta_bin_edges": [0.0, 2.6, 2.7, 3.0, 5.2], 
+        "criteria_expressions": [
+            "CEMF<0.8 && CHM>0 && CHF>0.01 && NumConst>1 && NEMF<0.9 && MUF<0.8 && NHF<0.99",
+            "CEMF<0.8 && NEMF<0.99 && MUF<0.8 && NHF<0.9",
+            "NHF<0.99",
+            "NEMF<0.40 && NumNeutralParticle>=2"
+        ]
+    },
+    {
+        "name": "AK4PUPPI_Tight",
+        "description": "AK4PUPPI Jet Identification Tight Criteria for Run3 Rereco2022CDE",
+        "version": 2,
+        "verbose_description": false,
+        "eta_bin_edges": [0.0, 2.6, 2.7, 3.0, 5.2], 
+        "criteria_expressions": [
+            "CHM>0 && CHF>0.01 && NumConst>1 && NEMF<0.9 && NHF<0.99",
+            "NEMF<0.99 && NHF<0.9",
+            "NHF<0.99",
+            "NEMF<0.40 && NumNeutralParticle>=2"
+        ]
+    },
+    {
+        "name": "AK4CHS_TightLeptonVeto",
+        "description": "AK4CHS Jet Identification TightLeptonVeto Criteria for Run3 Rereco2022CDE",
+        "version": 2,
+        "verbose_description": false,
+        "eta_bin_edges": [0.0, 2.6, 2.7, 3.0, 5.2], 
+        "criteria_expressions": [
+            "CEMF<0.8 && CHM>0 && CHF>0.01 && NumConst>1 && NEMF<0.9 && MUF<0.8 && NHF<0.99",
+            "CEMF<0.8 && CHM>0 && NEMF<0.99 && MUF<0.8 && NHF<0.9",
+            "NEMF<0.99 && NHF<0.99 && NumNeutralParticle>1",
+            "NEMF<0.40 && NumNeutralParticle>10"
+        ]
+    },
+    {
+        "name": "AK4CHS_Tight",
+        "description": "AK4CHS Jet Identification Tight Criteria for Run3 Rereco2022CDE",
+        "version": 2,
+        "verbose_description": false,
+        "eta_bin_edges": [0.0, 2.6, 2.7, 3.0, 5.2], 
+        "criteria_expressions": [
+            "CHM>0 && CHF>0.01 && NumConst>1 && NEMF<0.9 && NHF<0.99",
+            "CHM>0 && NEMF<0.99 && NHF<0.9",
+            "NEMF<0.99 && NHF<0.99 && NumNeutralParticle>1",
+            "NEMF<0.40 && NumNeutralParticle>10"
+        ]
+    },
+    {
+        "name": "AK8PUPPI_TightLeptonVeto",
+        "description": "AK8PUPPI Jet Identification TightLeptonVeto Criteria for Run3 Rereco2022CDE",
+        "version": 2,
+        "verbose_description": false,
+        "eta_bin_edges": [0.0, 2.6, 2.7, 3.0, 5.2], 
+        "criteria_expressions": [
+            "CEMF<0.8 && CHM>0 && CHF>0.01 && NumConst>1 && NEMF<0.9 && MUF<0.8 && NHF<0.99",
+            "CEMF<0.8 && NEMF<0.99 && MUF<0.8 && NHF<0.9",
+            "NHF<0.99",
+            "NEMF<0.40 && NumNeutralParticle>=2"
+        ]
+    },
+    {
+        "name": "AK8PUPPI_Tight",
+        "description": "AK8PUPPI Jet Identification Tight Criteria for Run3 Rereco2022CDE",
+        "version": 2,
+        "verbose_description": false,
+        "eta_bin_edges": [0.0, 2.6, 2.7, 3.0, 5.2], 
+        "criteria_expressions": [
+            "CHM>0 && CHF>0.01 && NumConst>1 && NEMF<0.9 && NHF<0.99",
+            "NEMF<0.99 && NHF<0.9",
+            "NHF<0.99",
+            "NEMF<0.40 && NumNeutralParticle>=2"
+        ]
+    },
+    {
+        "name": "AK8CHS_TightLeptonVeto",
+        "description": "AK8CHS Jet Identification TightLeptonVeto Criteria for Run3 Rereco2022CDE",
+        "version": 2,
+        "verbose_description": false,
+        "eta_bin_edges": [0.0, 2.6, 2.7, 3.0, 5.2], 
+        "criteria_expressions": [
+            "CEMF<0.8 && CHM>0 && CHF>0.01 && NumConst>1 && NEMF<0.9 && MUF<0.8 && NHF<0.99",
+            "CEMF<0.8 && CHM>0 && NEMF<0.99 && MUF<0.8 && NHF<0.9",
+            "NEMF<0.99 && NHF<0.99 && NumNeutralParticle>1",
+            "NEMF<0.40 && NumNeutralParticle>10"
+        ]
+    },
+    {
+        "name": "AK8CHS_Tight",
+        "description": "AK8CHS Jet Identification Tight Criteria for Run3 Rereco2022CDE",
+        "version": 2,
+        "verbose_description": false,
+        "eta_bin_edges": [0.0, 2.6, 2.7, 3.0, 5.2], 
+        "criteria_expressions": [
+            "CHM>0 && CHF>0.01 && NumConst>1 && NEMF<0.9 && NHF<0.99",
+            "CHM>0 && NEMF<0.99 && NHF<0.9",
+            "NEMF<0.99 && NHF<0.99 && NumNeutralParticle>1",
+            "NEMF<0.40 && NumNeutralParticle>10"
+        ]
+    }
+]
